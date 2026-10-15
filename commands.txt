@@ -1,0 +1,13 @@
+bash create_passwords.sh 
+ cat passwords.txt
+git status
+ echo "passwords.txt" > .gitignore
+ git status
+ git commit .gitignore
+ git commit commands.txt
+ git status
+ git push
+git add .
+git remote -v
+ git remote -v
+git remote -v
